@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-GoogleMobileAdsMediationMoPub",
+  "version": "0.1.0",
+  "description": "Cordova plugin to install GoogleMobileAdsMediationMoPub for ios",
+  "cordova": {
+    "id": "cordova-plugin-GoogleMobileAdsMediationMoPub",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jellomaster/GoogleMobileAdsMediationMoPub.git"
+  },
+  "scripts": {
+    "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "Mopub",
+    "Mediation",
+    "Admob",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Julian Avram <jellomaster@gmail.com> (https://github.com/jellomaster)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jellomaster/GoogleMobileAdsMediationMoPub/issues"
+  },
+  "homepage": "https://github.com/jellomaster/GoogleMobileAdsMediationMoPub#readme"
+}
